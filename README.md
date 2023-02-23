@@ -1,2 +1,2 @@
-# componentes-vue
-creacion de biblioteca de componentes en vue 3 +  tailwind css
+# Tenplate-Vue
+creacion de template usando Vue 3 + Tailwind css
