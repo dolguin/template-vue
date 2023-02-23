@@ -2,9 +2,9 @@
 
 - [x] Vue 3
 - [x] Linter Standard
-- [ ] Tailwind
-  - [ ] Instalar Tailwind
-  - [ ] Configurar Tailwind
+- [x] Tailwind
+  - [x] Instalar Tailwind
+  - [x] Configurar Tailwind
 - [ ] Daisy UI
   - [ ] Instalacion
   - [ ] Configurar template 
