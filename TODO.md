@@ -23,3 +23,5 @@
 ### Iconos
 - documentacion: https://docs.iconify.design/icon-components/vue/
 - listado de iconos: https://icones.js.org/
+  - se importa en pagina donde utilizará import { Icon } from '@iconify/vue';
+  - ``` <Icon icon="mdi:youtube" width="96" :inline="true" class="w-20 h-20" color="#d90916" horizontalFlip="true" /> ```
