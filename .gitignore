@@ -19,5 +19,8 @@ coverage
 .vscode/*
 !.vscode/extensions.json
 
+# Configuracion
+.env
+
 
 # OS generated files
