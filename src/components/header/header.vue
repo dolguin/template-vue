@@ -10,36 +10,24 @@ export default {
 
 <template>
   <header class="p-4 bg-[#2b303b]">
-    <div class="container flex justify-between h-16 mx-auto">
-      <section class="container inline-flex">
-        <a rel="noopener noreferrer" href="http://www.servel.cl" aria-label="Back to homepage"
-          class="flex items-center p-2">
-          <img src=" /img/logo.png" alt="" class=" p-2" width="68">
-        </a>
-        <p class="flex self-center font-bold text-lg text-slate-200">{{ empresa }}</p>
-      </section>
-      <section class="flex">
-        <ul class="items-stretch hidden space-x-3 lg:flex">
-          <li class="flex">
-            <a rel="noopener noreferrer" href="#"
-              class="flex items-center px-4 -mb-1 border-b-2 dark:border-transparent">Link</a>
-          </li>
-          <li class="flex">
-            <a rel="noopener noreferrer" href="#"
-              class="flex items-center px-4 -mb-1 border-b-2 dark:border-transparent dark:text-violet-400 dark:border-violet-400">Link</a>
-          </li>
-          <li class="flex">
-            <a rel="noopener noreferrer" href="#"
-              class="flex items-center px-4 -mb-1 border-b-2 dark:border-transparent">Link</a>
-          </li>
-          <li class="flex">
-            <a rel="noopener noreferrer" href="#"
-              class="flex items-center px-4 -mb-1 border-b-2 dark:border-transparent">Link</a>
-          </li>
-        </ul>
-        <div class="items-center flex-shrink-0 hidden lg:flex">
-          <button class="px-8 py-3 font-semibold rounded dark:bg-violet-400 dark:text-gray-900">Log in</button>
+    <div class="container flex flex-col">
+      <section class="container inline-flex ">
+        <div class=" w-16">
+          <a rel="noopener noreferrer" href="http://www.servel.cl" aria-label="Back to homepage">
+            <img src=" /img/logo.png" alt="" />
+          </a>
         </div>
+
+        <div class="flex justify-center pl-4 w-full">
+          <p class="self-center font-bold text-2xl text-slate-200">{{ empresa }}</p>
+        </div>
+      </section>
+      <section class="items-center space-x-3 flex">
+        <div class="w-1/2"></div>
+        <!-- <div class=""> -->
+        <ul class="justify-center flex">
+          <li>link 1</li>
+        </ul>
       </section>
 
     </div>

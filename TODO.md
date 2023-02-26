@@ -8,7 +8,7 @@
 - [ ] Daisy UI
   - [ ] Instalacion
   - [ ] Configurar template 
-- [ ] Iconos Iconify
+- [x] Iconos Iconify
 
 # Documentacion
 
