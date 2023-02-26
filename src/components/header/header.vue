@@ -2,21 +2,21 @@
 export default {
   data: function () {
     return {
-      servicio: import.meta.env.VITE_API_EMPRESA || "Nombre empresa",
+      empresa: import.meta.env.VITE_API_EMPRESA || "Nombre empresa",
     };
   },
 }
 </script>
 
 <template>
-  <header class="p-4 dark:bg-gray-800 dark:text-gray-100">
+  <header class="p-4 bg-[#2b303b]">
     <div class="container flex justify-between h-16 mx-auto">
       <section class="container inline-flex">
         <a rel="noopener noreferrer" href="http://www.servel.cl" aria-label="Back to homepage"
           class="flex items-center p-2">
           <img src=" /img/logo.png" alt="" class=" p-2" width="68">
         </a>
-        <p class="flex self-center font-bold text-lg">{{ servicio }}</p>
+        <p class="flex self-center font-bold text-lg text-slate-200">{{ empresa }}</p>
       </section>
       <section class="flex">
         <ul class="items-stretch hidden space-x-3 lg:flex">
