@@ -11,6 +11,10 @@ module.exports = {
         // primary: '#f35958'
         primary: '#d90916',
         dark: '#181818'
+      },
+      fontFamily: {
+        sans: ['Roboto', 'sans-serif'],
+        Montserrat: ['Montserrat', 'sans-serif']
       }
     },
     container: {
