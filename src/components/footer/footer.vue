@@ -8,7 +8,7 @@ const version = import.meta.env.VITE_API_VERSION || "0.0.0"
 </script>
 
 <template>
-  <footer class="text-gray-600 body-font dark:bg-gray-800 font-Montserrat">
+  <footer class="text-gray-600 body-font dark:bg-zinc-800 font-Montserrat">
     <hr class="bg-gray-100 dark:opacity-5" />
     <div class="container flex flex-col items-center px-5 py-8 mx-auto sm:flex-row">
       <div class="flex text-sm text-gray-300">
@@ -24,7 +24,6 @@ const version = import.meta.env.VITE_API_VERSION || "0.0.0"
       </div>
       <span class="inline-flex items-center justify-center mt-4 text-xs text-gray-300 sm:ml-auto sm:mt-0 sm:justify-start">
         <p class="pr-4 border-r-2">Version {{ version }}</p>
-        <!-- <p class="pl-4">2023</p> -->
         <p class="pl-4">Division TI</p>
       </span>
     </div>
