@@ -20,9 +20,9 @@ const nombre_eleccion = import.meta.env.VITE_API_NAME || "Informe tarifario";
       </section>
       <section class="flex items-center pr-5 text-base">
         <nav class="flex flex-wrap items-center justify-center pr-20 ml-auto font-bold">
-          <a href="#" class="mr-10">
+          <router-link to="/">
             <Icon icon="fe:home" class="w-4 h-4 ml-1" />
-          </a>
+          </router-link>
           <a href="#" class="flex items-center mr-5">
             <Icon icon="fe:plus" class="m-1" />Ingresar
           </a>
@@ -46,12 +46,13 @@ const nombre_eleccion = import.meta.env.VITE_API_NAME || "Informe tarifario";
           </router-link>
           <button type="button"
             class="inline-flex items-center px-3 py-2 m-0.5 mt-0 border-0 rounded focus:outline-none hover:bg-zinc-600 bg-zinc-700"
-          @click="changeDarkMode">
-          <Icon v-if="toggleDarkMode" icon="fe:sunny-o" />
-          <Icon v-else icon="fe:moon" />
-        </button>
-      </div>
+            @click="changeDarkMode">
+            <Icon v-if="toggleDarkMode" icon="fe:sunny-o" />
+            <Icon v-else icon="fe:moon" />
+          </button>
+        </div>
 
-    </section>
-  </div>
-</header></template>
+      </section>
+    </div>
+  </header>
+</template>
