@@ -1,5 +1,4 @@
 <script setup>
-import { Icon } from '@iconify/vue';
 import ButtonHeader from './button_header.vue'
 
 const empresa = import.meta.env.VITE_API_EMPRESA || "Nombre empresa";
