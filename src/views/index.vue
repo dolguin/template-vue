@@ -3,7 +3,7 @@ import headerNav from '@/components/header/header.vue'
 import headerMenu from '@/components/header/header_menu.vue'
 import footer1 from '@/components/footer/footer.vue'
 
-const menu = false // Respuesta a si existe acto electoral activo
+const menu = true // Respuesta a si existe acto electoral activo
 </script>
 
 
@@ -12,7 +12,7 @@ const menu = false // Respuesta a si existe acto electoral activo
     <headerMenu v-if="menu" />
     <headerNav v-else />
     <main class="flex-grow">
-
+      <router-view></router-view>
     </main>
     <footer1 />
   </div>
