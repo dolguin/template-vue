@@ -18,6 +18,10 @@ creacion de template usando Vue 3 + Tailwind css
 - https://tailblocks.cc/
 - https://merakiui.com/components
 - https://www.hyperui.dev/
+- https://www.creative-tim.com/learning-lab/tailwind-starter-kit/presentation
+
+### Ejemplo dashboard
+- https://vuejsexamples.com/responsive-dashboard-design-using-vue-js/
 
 ### Iconos
 - documentacion: https://docs.iconify.design/icon-components/vue/
