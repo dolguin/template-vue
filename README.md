@@ -28,3 +28,16 @@ creacion de template usando Vue 3 + Tailwind css
 - listado de iconos: https://icones.js.org/
   - se importa en pagina donde utilizará import { Icon } from '@iconify/vue';
   - ``` <Icon icon="mdi:youtube" width="96" :inline="true" class="w-20 h-20" color="#d90916" horizontalFlip="true" /> ```
+
+### Componentes
+- File upload: https://pqina.nl/filepond
+  - docs: https://pqina.nl/filepond/docs/getting-started/installation/vue/
+- Contdown: https://pqina.nl/flip/
+
+### Plugins
+- Validador formulario
+  - https://vuelidate.js.org/
+
+
+### Videos Aprendizaje
+- https://www.youtube.com/@LearnVue
